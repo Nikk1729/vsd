@@ -37,7 +37,7 @@ OpenLane is an open-source ASIC design flow that automates the RTL to GDSII proc
 
 <img width="1032" height="731" alt="Openlane flow" src="https://github.com/user-attachments/assets/70e08f67-2f8e-47f3-8ffc-d5233afc523b" />
 
-# 🔹 **What is Sky130 PDK?**
+# **What is Sky130 PDK?**
 Sky130 is an open-source Process Design Kit (PDK) provided by Google and SkyWater. It contains all the required files to design and manufacture ICs at 130nm technology node.
 
 ## **It includes:**
@@ -46,7 +46,7 @@ Sky130 is an open-source Process Design Kit (PDK) provided by Google and SkyWate
 - Layout vs schematic rules (LVS)
 - SPICE models
 
-# 🔹 **invoking openlane**
+#  **invoking openlane**
 
 ## once after invoking the openlane the tool is ready to perform and the 4 main steps should be followed every time to invoke the tool
 
@@ -70,7 +70,7 @@ Sky130 is an open-source Process Design Kit (PDK) provided by Google and SkyWate
 <img width="977" height="237" alt="prep -design" src="https://github.com/user-attachments/assets/cff4095c-34ae-4f91-b4e3-c1837e53336f" />
 
 
-# 🔹 **what is picorv32a ?**
+#  **what is picorv32a ?**
 
    ## picorv32a is a compact and efficient RISC-V based 32-bit processor core written in Verilog, commonly used in OpenLane and Sky130-based ASIC design flows for learning and implementation.
 
@@ -85,7 +85,7 @@ Sky130 is an open-source Process Design Kit (PDK) provided by Google and SkyWate
             
 
    
-# 🔥 **run_synthesis**                 
+#  **run_synthesis**                 
   ## Converts RTL → Gate-level netlist
                               -Uses Yosys
                               -Maps logic to standard cells (Sky130)
@@ -132,7 +132,7 @@ replace_cell <instance> high_drive_strength_buffer /repeator
 
 
 
-# 🔥 **run_floorplan**                 
+#  **run_floorplan**                 
 ## Defines chip layout structure
 
                               -Sets die area & core area
@@ -171,7 +171,7 @@ to veiw layout view
 
 
 
-# 🔥 **run_placement**                     
+#  **run_placement**                     
 ##  Places standard cells inside the core  
                           -Global placement
                           -Detailed placement
@@ -210,7 +210,7 @@ to veiw layout view
 
 
 
-# 🔥 **run_cts**     
+# **run_cts**     
 ## Builds clock distribution network and ensures clock reaches all flip-flops properly 
              -inserts clock buffers
              -Balances clock delay (skew)
@@ -241,7 +241,7 @@ to veiw layout view
 
 Improper clock tree design can lead to timing violations due to excessive skew or latency.
 
-# 🔥 **gen_pdn**
+#  **gen_pdn**
 <img width="1152" height="69" alt="gen pdn" src="https://github.com/user-attachments/assets/4d9c2d94-91a7-4e5c-b94d-eb97e98cc34b" />
 
 ## Generates the Power Distribution Network (PDN) for the design.
@@ -265,7 +265,7 @@ Improper clock tree design can lead to timing violations due to excessive skew o
 ✔ Improves reliability of the chip
 
 
-# 🔥 **run_routing**
+#  **run_routing**
 
 <img width="1157" height="468" alt="routing run" src="https://github.com/user-attachments/assets/297f7bfe-ce30-4f53-8671-9d2062929f19" />
 
