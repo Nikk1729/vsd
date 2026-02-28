@@ -48,8 +48,6 @@ Sky130 is an open-source Process Design Kit (PDK) provided by Google and SkyWate
 
 # 🔹 **invoking openlane**
 
-<img width="1182" height="334" alt="openlane tool invoke " src="https://github.com/user-attachments/assets/7e33f8ad-0d6c-4c46-9a3b-ad51b1b3e402" />
-
 ## once after invoking the openlane the tool is ready to perform and the 4 main steps should be followed every time to invoke the tool
 
 - **openlane**                      : navigates to openlane directory.
